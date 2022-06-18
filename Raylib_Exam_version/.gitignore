@@ -1,0 +1,6 @@
+*.o
+*.exe
+app
+.DS_Store
+build
+App.sln
