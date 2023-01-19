@@ -65,8 +65,8 @@ void someCompute() {
 
 int main(void)
 {
-    const int screenWidth = 1800;
-    const int screenHeight = 1000;
+    const int screenWidth = 800;
+    const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "Ball cloth");
 
@@ -78,7 +78,7 @@ int main(void)
     camera.projection = CAMERA_PERSPECTIVE;
     SetCameraMode(camera, CAMERA_FREE); 
     SetCameraPanControl(3);
-    SetTargetFPS(60);
+    SetTargetFPS(90);
 
     Object scene;
     ParticleSystem ps(121, {0.0f, 2.0f, 0.0f}, 0.4f, {0.0f, 0.0f, 0.0f}, 1.0f);
